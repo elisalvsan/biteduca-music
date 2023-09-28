@@ -12,12 +12,14 @@
 
     <link rel="stylesheet" href="./src/css/sobre.css" />
   </head>
+
   <body>
     <header class="cabecalho">
       <a href="index.html"
         ><img src="src/image/svg/logo.svg" alt="logo da musicdot"
       /></a>
     </header>
+
     <main>
       <h1 class="titulo">Sobre a empresa</h1>
       <p>
@@ -33,7 +35,7 @@
         >. De lá, saem grande parte das gravações de nossos cursos. Nossa
         matriz:
       </p>
-      <figure>
+      <figure class="matriz-musicdot">
         <img src="src/image/matriz-musicdot.png" alt="Matriz da musicdot" />
         <figcaption>Matriz da MusicDot</figcaption>
       </figure>
@@ -46,7 +48,7 @@
       </p>
       <h2 class="subtitulo" id="histotia">História</h2>
 
-      <figure>
+      <figure class="familia-tupfeln">
         <img
           src="./src/image/familia-tupfeln.jpg"
           alt="Foto da família Tüpfeln" />
@@ -97,8 +99,52 @@
           ICQ, WhatsApp, SMS, carta, fax, sinal de fumaça e telegrama
         </li>
         <li>Presente em 124 países</li>
-        <li> Mais de um milhão de funcionários em todo o mundo</li>
+        <li>Mais de um milhão de funcionários em todo o mundo</li>
       </ul>
+
+      <h2 class="titulo">Contato</h2>
+
+      <div class="contato__secao">
+        <h3 class="contato__subtitulo">Correspondência</h3>
+        <small>(todos os dias, das 9h às 18h)</small>
+        <address class="contato__info">
+          AOVS Sistemas de Informática S.A
+          <br />
+          Rua Vergueiro, 3185, 8º andar
+          <br />
+          Vila Mariana
+          <br />
+          São Paulo - SP
+        </address>
+      </div>
+
+      <div id="contato" class="contato__secao contato__secao--telefone">
+        <h3 class="contato__subtitulo">Telefones</h3>
+        <small>(segunda à sexta, das 9h às 18h)</small>
+
+        <dl class="contato__info">
+          <div>
+            <dt class="contato__info-titulo">Pessoa Física:</dt>
+            <dd class="contato__info-descricao">
+              <a href="tel://114118-3319"> (11) 4118-3319 </a>
+            </dd>
+          </div>
+
+          <div>
+            <dt class="contato__info-titulo">Pessoa Jurídica:</dt>
+            <dd class="contato__info-descricao">
+              <a href="tel://114118-2172"> (11) 4118-2172 </a>
+            </dd>
+          </div>
+        </dl>
+      </div>
     </main>
+    <footer class="rodape">
+      <img
+        src="src/image/svg/logo.svg"
+        alt="Logo da musicdot"
+        class="rodape__logo" />
+      <p class="rodape__copyright">&copy; Copyright MusicDot</p>
+    </footer>
   </body>
 </html>
