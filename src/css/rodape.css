@@ -3,7 +3,8 @@ body {
 }
 
 .rodape {
-  padding: 2em 5%;
+  padding-top: 2em;
+  padding-bottom: 2em;
   text-align: center;
   font-size: 0.7rem;
   color: #3d3d3d;

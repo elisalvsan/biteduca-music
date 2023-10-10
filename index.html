@@ -13,13 +13,15 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block" />
     <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/container.css" />
     <link rel="stylesheet" href="./src/css/cabecalho.css" />
+    <link rel="stylesheet" href="./src/css/cursos.css" />
     <link rel="stylesheet" href="./src/css/rodape.css" />
     <link rel="stylesheet" href="./src/css/form-newsletter.css" />
   </head>
 
   <body>
-    <header class="cabecalho">
+    <header class="cabecalho container">
       <a href="index.html">
         <img
           class="cabecalho__logo"
@@ -41,10 +43,42 @@
       </nav>
     </header>
 
-    <main>Conteúdo principal</main>
+    <main>
+      <section class="cursos">
+        <article class="cursos__chamada --largura-grade">
+          <h1 class="chamada__titulo">
+            Cursos online de
+            <strong class="chamada__titulo--destaque">música</strong>
+          </h1>
+          <p>Comece agora e aprenda sua primeira música em 10 minutos!</p>
+          <a href="cursos.html" class="chamada__cursos__matricula botao"
+            >Matricule-se</a
+          >
+        </article>
 
-    <footer class="rodape">
-      <section class="rodape__secao  rodape__secao--sobre">
+        <nav>
+          <ul class="cursos__lista">
+            <li class="curso--tecladopiano"><a href="#">Teclado & Piano</a></li>
+            <li class="curso--violaoguitarra">
+              <a href="#">Violão & Guitarra</a>
+            </li>
+            <li class="curso--baixo"><a href="#">Baixo</a></li>
+            <li class="curso--bateria curso--destaque">
+              <a href="#">Bateria</a>
+            </li>
+            <li class="curso--percussao"><a href="#">Percussão</a></li>
+            <li class="curso--canto curso--destaque2"><a href="#">Canto</a></li>
+            <li class="curso--audio"><a href="#">Áudio</a></li>
+            <li class="curso--teoria"><a href="#">Teoria</a></li>
+            <li class="curso--sopro"><a href="#">Sopro</a></li>
+            <li class="curso--cordas"><a href="#">Cordas</a></li>
+          </ul>
+        </nav>
+      </section>
+    </main>
+
+    <footer class="rodape container">
+      <section class="rodape__secao rodape__secao--sobre">
         <img
           class="rodape__logo"
           src="./src/image/svg/logo.svg"
