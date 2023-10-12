@@ -26,7 +26,7 @@
 .cursos {
   color: #fff;
   text-align: center;
-  background-image: url(../image/home-background-mobile.png);
+  background-image: url(../../image/home-background-mobile.png);
   background-size: cover;
   padding-top: 9.5rem;
   display: flex;
@@ -99,43 +99,43 @@
 }
 
 .curso--tecladopiano {
-  background-image: url("../image/svg/icone-teclado-piano.svg");
+  background-image: url("../../image/svg/icone-teclado-piano.svg");
 }
 
 .curso--violaoguitarra {
-  background-image: url("../image/svg/icones-violao-guitarra.svg");
+  background-image: url("../../image/svg/icones-violao-guitarra.svg");
 }
 
 .curso--baixo {
-  background-image: url("../image/svg/icones-baixo.svg");
+  background-image: url("../../image/svg/icones-baixo.svg");
 }
 
 .curso--bateria {
-  background-image: url("../image/svg/icones-bateria.svg");
+  background-image: url("../../image/svg/icones-bateria.svg");
 }
 
 .curso--percussao {
-  background-image: url("../image/svg/icones-percussao.svg");
+  background-image: url("../../image/svg/icones-percussao.svg");
 }
 
 .curso--canto {
-  background-image: url("../image/svg/icones-canto.svg");
+  background-image: url("../../image/svg/icones-canto.svg");
 }
 
 .curso--audio {
-  background-image: url("../image/svg/icones-audio.svg");
+  background-image: url("../../image/svg/icones-audio.svg");
 }
 
 .curso--teoria {
-  background-image: url("../image/svg/icones-teoria.svg");
+  background-image: url("../../image/svg/icones-teoria.svg");
 }
 
 .curso--sopro {
-  background-image: url("../image/svg/icones-sopro.svg");
+  background-image: url("../../image/svg/icones-sopro.svg");
 }
 
 .curso--cordas {
-  background-image: url("../image/svg/icone-cordas.svg");
+  background-image: url("../../image/svg/icone-cordas.svg");
 }
 
 .cursos__lista img {
@@ -147,7 +147,7 @@
 @media (min-width: 768px) {
   .cursos {
     padding: 6rem 5% 0;
-    background-image: url(../image/home-background.png);
+    background-image: url(../../image/home-background.png);
   }
 
   .cursos__chamada {
